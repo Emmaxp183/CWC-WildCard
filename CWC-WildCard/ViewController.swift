@@ -9,10 +9,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   ///UI VIEW
+    
+    @IBOutlet weak var LightCard: UIImageView!
+    
+    @IBOutlet weak var RightCard: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
+
+
+ ///CONTROLLERS / ACTIONS
+
+
+    @IBAction func DealButton(_ sender: Any) {
+    
+        ///ACTIONS
+        
+        print("Hello World")
+        
+    
+    
+    }
+    
 
 
 }
