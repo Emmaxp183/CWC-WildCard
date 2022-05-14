@@ -103,8 +103,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="LightCard" destination="A3V-LT-YG1" id="J7Z-Fg-Ui3"/>
+                        <outlet property="LeftCard" destination="A3V-LT-YG1" id="lsc-CL-4Ay"/>
+                        <outlet property="PlayerNumber" destination="y9Y-Px-2ys" id="Lte-5j-Z2N"/>
                         <outlet property="RightCard" destination="1yG-ye-Vrd" id="WOL-ap-p1U"/>
+                        <outlet property="ScoreNumber" destination="eMY-Q4-snw" id="9oq-0M-vxo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
